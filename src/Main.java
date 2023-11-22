@@ -10,6 +10,6 @@ public class Main {
         LocalDateTime now = LocalDateTime.now();
         System.out.println(now.format(formatter));
 
-        System.out.println("Всем привет");
+        System.out.println("Всем привет!!!");
     }
 }
