@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.HH:mm:SS");
         LocalDateTime now = LocalDateTime.now();
-        System.out.println("не будет сегодня даты");
+        System.out.println(now.format(formatter));
     }
 }
