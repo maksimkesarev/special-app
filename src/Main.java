@@ -9,5 +9,7 @@ public class Main {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.HH:mm:SS");
         LocalDateTime now = LocalDateTime.now();
         System.out.println("777777777777777777777777777777");
+
+        System.out.println("без дат");
     }
 }
